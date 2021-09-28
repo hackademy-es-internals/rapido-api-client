@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url(//db.onlinewebfonts.com/c/fd131d436dd85453848ae4a84bb466ad?family=Zing+Rust+Demo+Base);
+@font-face {
+    font-family: "Zing Rust Demo Base";
+    src: url("//db.onlinewebfonts.com/t/fd131d436dd85453848ae4a84bb466ad.eot");
+    src: url("//db.onlinewebfonts.com/t/fd131d436dd85453848ae4a84bb466ad.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/fd131d436dd85453848ae4a84bb466ad.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/fd131d436dd85453848ae4a84bb466ad.woff") format("woff"), url("//db.onlinewebfonts.com/t/fd131d436dd85453848ae4a84bb466ad.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/fd131d436dd85453848ae4a84bb466ad.svg#Zing Rust Demo Base") format("svg");
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  font-family: 'Zing Rust Demo Base';
+  font-size: 30px;
+}
+
+.bd{
+  border-bottom: 3px solid black;
+}
+
+.item-nav {
+  border-left: 1px solid rgb(191, 191, 191);
+  padding: 0px 10px;
+  font-size: 15px;
+}
+
+.bd-busqueda {
+  border-radius: 60px;
+  padding: 5px 40px;
+}
+
+.btn-nav {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-weight: 100;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background: url('./fondo3.png');
+  background-size: cover;
+  background-position: 100vw;
+  background-repeat: repeat;
+  border-bottom: 3px solid black;
+}
+
+.masthead-all {
+  height: 50vh;
+  min-height: 500px;
+  background: url('./fondo1.jpg');
+  background-size: cover;
+  background-position: 100vw;
+  background-repeat: repeat;
+  border-bottom: 3px solid black;
+}
+
+.titulo {
+  font-family: 'Zing Rust Demo Base';
+  font-size: 80px; 
+  color: black;
+}
+
+.utility {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.feature{
+  font-family: 'Zing Rust Demo Base';
+}
+
+.category {
+  height: 300px;
+  width: 300px;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('./cate.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Zing Rust Demo Base';
+  color: white;
+  text-shadow: 3px 3px 8px black;
+  font-weight: 300;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.category:hover {
+  font-size: 50px;
+  transition: 0.4s all;
+  letter-spacing: 3px;
+}
+
+.novedades{
+  font-family: 'Zing Rust Demo Base';
+  font-size: 25px;
+  padding: 0px 30px;
+}
+
+.btn-enviar{
+  border-radius: 15px;
+  background-color: #000;
+  color: white;
+  padding: 3px 30px;
+}
+
+.filtros {
+  font-family: 'Zing Rust Demo Base';
+  font-size: 25px;
+  padding: 0px 30px;
+}
+
+.card-prod {
+  height: 250px;
+  width: 250px;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.titulo-card{
+  font-family: 'Zing Rust Demo Base';
+  font-size: 20px;
+}
+
