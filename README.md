@@ -1,5 +1,7 @@
 # rapido-api-client
-Fork and clone the laravel api project: 
+In this project we use fetch api with promise to retrieve data from a laravel api project and show them manipulating the DOM.
+
+Before using this project, fork and clone the laravel api project: 
 https://github.com/hackademy-es-internals/rapido-api
 
 Launch the api server
